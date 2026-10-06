@@ -27,4 +27,4 @@ public class FavoritesServiceTest {
         service.getFavorite(favorites, 3);
     }
 
-}  // closes FavoritesServiceTest class
+}
