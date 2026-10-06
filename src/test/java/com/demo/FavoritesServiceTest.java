@@ -26,3 +26,4 @@ void testGetFavoriteCategory() {
 
     service.getFavorite(favorites, 3);
 }
+}
