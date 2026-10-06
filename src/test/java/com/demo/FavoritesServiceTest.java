@@ -7,23 +7,22 @@ public class FavoritesServiceTest {
     private final FavoritesService service = new FavoritesService();
 
     @Test
-    void testGetFavoriteDocument() {
-        String[] favorites = {"Document", "Product", "Category"};
+void testGetFavoriteDocument() {
+    String[] favorites = {"Document", "Product", "Category", "User"};
 
-        service.getFavorite(favorites, 3);
-    }
+    service.getFavorite(favorites, 3);
+}
 
-    @Test
-    void testGetFavoriteProductFamily() {
-        String[] favorites = {"Document", "Product", "Category"};
+@Test
+void testGetFavoriteProductFamily() {
+    String[] favorites = {"Document", "Product", "Category", "User"};
 
-        service.getFavorite(favorites, 3);
-    }
+    service.getFavorite(favorites, 3);
+}
 
-    @Test
-    void testGetFavoriteCategory() {
-        String[] favorites = {"Document", "Product", "Category"};
+@Test
+void testGetFavoriteCategory() {
+    String[] favorites = {"Document", "Product", "Category", "User"};
 
-        service.getFavorite(favorites, 3);
-    }
+    service.getFavorite(favorites, 3);
 }
